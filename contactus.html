@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel = "icon" href = "zomatologo.png">
+    <style>
+         form{
+            
+            background-image: linear-gradient(#fbf8cc,#fde4cf,#ffcfd2,#f1c0e8,#cfbaf0,#a3c4f3,#90dbf4,#8eecf5,#98f5e1,#b9fbc0);
+        }
+    </style>
+   
+</head>
+<body>
+   
+    <img src="zomatologo.png" alt = "tap logo"
+    width = "170"
+    height = "70"/><br><br><br>
+    <center><img src="howcanwehelp.png" alt = "tap logo"
+        width = "1050"
+        height = "200"/></center><br><br>
+
+        <form  action = "query.html">
+           
+                <label>How can we help you?</label>
+                <input list = "uhelp">
+                <datalist id = "uhelp">
+                    <option>I need help with my zomato order</option>
+                    <option>I found incorrect/outdatedinformation on a page.</option>
+                    <option>There is a photo/review that is bothering me and I would like to report it.</option>
+                    <option>The website/app are not working the way they should.</option>
+                    <option>I would like to give Feedback/Suggestions.</option>
+                    <option>Ineed some help with my blog</option>
+                    <option>others</option>
+                    </datalist>
+                    <input type="submit"><br>
+                    <a href  = "https://mail.google.com/mail/u/0/#sent?compose=DmwnWsTHqCXzRwqjxhjZwnZMFLcJzcSnXcmVBdQmjfWLnGLlZBdDkLXDPQfStCJFzRTxZkPJpncL"  target="_blank">Send Mail</a>
+                    </a>
+                  </form><br><br>
+                   
+                  <form action="thankyousignin.html">
+                    <marquee behaviour = "" direction = "right">
+                    <h2>Fill the Form To SignIn</h2>
+                </marquee>
+                <fieldset>
+                <legend>Form</legend>
+                <label for = "uname">Full Name </label>
+                <input type = "text" id = "uname" required pattern="[a-zA-Z]{3,8}"><br><br>
+                <label for = "uemail">Email Address  </label>
+                <input type = "text" id = "uemail" required pattern = "[a-z0-9_.]+@[a-z]+.[a-z]{2,}"><br><br>
+                <label for = "uphone">Mobile Number(optional)</label>
+                <input type = "text" id = "uphone" pattern="[6-9]{1}[0-9]{9}"><br><br>
+                <label for = "utext">Type Text</label>
+                <input type = "text" id = "utext" requiredpattern="[a-zA-Z]{3,8}"><br><br>
+                <label for = "udob">DOB</label>
+                <input type = "date" id = "udob" required><br><br>
+                
+            </fieldset>
+            <input type="submit">
+        </form>
+        
+  
+</body>
+</html>
